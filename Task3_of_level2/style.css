@@ -1,0 +1,54 @@
+body{
+    width: 35%;
+    margin: 0 auto;
+    font-family: font-family,"Comic Sans MS", cursive, sans-serif;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    align-self: center;
+    width: 500px;
+}
+
+#inputdata{
+    width: 350px;
+    height: 45px;
+    border-width: 0px;
+    border-left:3px solid black;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    outline: none;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#addtask{
+    height: 53px;
+    width: 50px;
+    border-right:3px solid black;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    /* border: 1px solid black; */
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#heading{
+    font-size: 180%;
+    padding-left: 60px;
+} 
+
+.tasks{
+    margin-top: 25px;
+    overflow:auto;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding-left: 10px;
+}
